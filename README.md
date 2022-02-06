@@ -19,7 +19,7 @@ However, the optional PROBE step can easily cause confusions on the client side,
 Despite the minimal implementation for testbed, we need evolve the NDNCERT design.
 
 ### Availablity
-1. There'a always an issue: when the validator requests a certificate, where it is?
+1. There's always an issue: when the validator requests a certificate, where it is?
 As a special application, NDN Testbed uses repo-ng to serve all certificates under its trust zone.
 However, small applicatons need their own way of serving signing certificates.
 Alex pointed out this is an issue we keep revisting at.
